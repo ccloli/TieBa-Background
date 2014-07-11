@@ -7,7 +7,7 @@ var t0=new Date().getTime(),
 	i,j,id,imgnum,imgstyle,imgx,imgy,imga,imga1,topa,css,setting,updatef;
 if(!window.localStorage.getItem('tbbg_setting'))var tbbg_value=new Object();
 else var tbbg_value=JSON.parse(window.localStorage.getItem('tbbg_setting'));
-var u_serverlist=['http://ext.ccloli.com/tieba-background/update/','http://chrome8.ga/tieba-background/update/'],
+var u_serverlist=['http://ext.ccloli.com/tieba-background/update/'],
 	u_server=parseInt(localStorage.tbbg_server)||0,
 	version=chrome.runtime.getManifest().version,
 	response;

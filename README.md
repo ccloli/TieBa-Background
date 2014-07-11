@@ -8,13 +8,12 @@ A Chrome extension to add background images to Baidu Tieba.
 ----------------
 > 1. 下载 tieba-background.zip 并解压至一个不会变动的文件夹；
 > 
->> 另一个下载地址：<http://ext.ccloli.com/tieba-background/download/>
+> 		另一个下载地址：<http://ext.ccloli.com/tieba-background/download/>
 > 
 > 2. 点击 Chrome 菜单按钮，选择 **工具 > 扩展程序**；
 > 
->> 您也可以右击任何扩展程序的图标，选择 **管理**
->> 
->> 或者直接访问 *chrome://extensions/*
+> 		您也可以右击任何扩展程序的图标，选择 **管理**
+> 		或者直接访问 *chrome://extensions/*
 > 
 > 3. 勾选右上角的 **开发者模式**；
 > 
@@ -28,11 +27,9 @@ A Chrome extension to add background images to Baidu Tieba.
 ----------------
 > 1. 将所有的图片以 1.jpg、2.jpg、3.jpg、4.jpg……这样的文件名命名，放在一个不会变动的文件夹内；
 > 
->> * 后缀必须是 .jpg（文件格式不需要在意，如果是 .png 之类的图片也改名为 .jpg）
->> 
->> * 文件名必须是由 1 开始的连续数字
->>
->> * 注意不要将文件名写成 1.jpg.jpg、2.jpg.jpg、3.jpg.jpg、4.jpg.jpg……的形式，Windows 操作系统需在 **文件夹选项** 的 **查看** 选项卡中_取消勾选_ **隐藏已知文件类型的扩展名** 以确认文件名是否正确
+> 		* 后缀必须是 .jpg（文件格式不需要在意，如果是 .png 之类的图片也改名为 .jpg） 
+> 		* 文件名必须是由 1 开始的连续数字
+> 		* 注意不要将文件名写成 1.jpg.jpg、2.jpg.jpg、3.jpg.jpg、4.jpg.jpg……的形式，Windows 操作系统需在 **文件夹选项** 的 **查看** 选项卡中_取消勾选_ **隐藏已知文件类型的扩展名** 以确认文件名是否正确
 > 
 > 2. 下载 source/tieba-background-image.manifest.json 并改名为 manifest.json；
 > 
