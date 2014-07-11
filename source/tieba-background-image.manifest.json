@@ -1,0 +1,7 @@
+﻿{
+	"web_accessible_resources": [ "*" ],
+	"name": "TieBa-Background 图片托管扩展程序",
+	"description": "本扩展程序用于载入 TieBa-Background 的背景图片，具体使用方法请参见 TieBa-Background 的设置页。",
+	"version": "1",
+	"manifest_version": 2
+}
