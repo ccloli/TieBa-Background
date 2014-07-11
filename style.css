@@ -1,0 +1,382 @@
+/* TieBa-Background 1.3.1 */
+/* Copyright (c) 2013-2014, 864907600cc. Some rights reserved. */
+/* Released under the GPL license  http://www.gnu.org/licenses/gpl.html */
+
+.TBBG_top_white{z-index:-1;position:absolute;top:0px;width:100%;height:200px;background:-webkit-linear-gradient(top,white,rgba(255,255,255,0));left:0}
+.TBBG_bg_white{z-index:-2;position:fixed;top:0;width:100%;height:100%;left:0;background:#fff}
+.TBBG_background{z-index:-3;position:fixed;top:0!important;width:100%;height:100%;left:0!important;-webkit-transition:background 1s linear, opacity 1s linear!important}
+.TBBG_background[preload]{opacity:0!important}
+html[has_TBBG_extension] body{background-color:transparent!important}
+html[has_TBBG_extension] .wrap1,html[has_TBBG_extension] .wrap2,html[has_TBBG_extension] .thread_theme_4,html[has_TBBG_extension] body[class*=skin]{background:none!important}
+.bakan_content{font-family:宋体!important}
+.pager .cur,.core_title,.thread_alt,#list_area .thread_list,.edit_title_field,.tb-editor-wrapper,.l_aside div[data-region],#zyq .j_editable,div[data-region],.sign_rank_table,.sign_rank_table+.pager_container #bdshare,#sign_mod,.pager_theme_3 span.tP,#bakan_list>.left>.inner,#bakan_list>.right>.mod,#level_l_table,.album_ele_pic,#bakan_edit,#page_list_panel,#page_edit_panel,#container.clearfix>table+.tb+#view_content+.tb+#comment>.left,#container.clearfix>table+.tb+#view_content+.tb+#comment>.right>.mod,#container.clearfix>table+.tb+#view_content,.wrap2 .frs_content.clearfix .contet_wrap,.help_zone,#nav_forum_menu.nav_forum_menu .n_menu_wrap,#topic_thread_wrapper{border-radius:2px!important;box-shadow:0px 0px 5px rgba(0,0,0,.5)!important;background:rgba(255,255,255,.3)!important}
+.l_post{background-color:rgba(255,255,255,.3)!important}
+.p_postlist{border-radius:2px!important;box-shadow:0px 0px 5px rgba(0,0,0,.5)!important;background-color:transparent!important}
+.edit_title_field{border:#D6D6D6 1px solid}
+.d_post_content,.p_content,.l_container .p_share_ding,#container #content{width:98%!important}
+.left_section .p_postlist,.left_section .p_content,.left_section .d_post_content{width:100%!important}
+.d_post_content_main{width:820px!important}
+.right_section{display:none!important}
+div#content.post_link[style="padding-left:0;"]{width:750px!important}
+div#content.post_link[style="padding-left:0;"] .post,div#content.post_link[style="padding-left:0;"] .post_split{width:100%!important}
+.left_section{background:rgba(255,255,255,0)!important;width:980px!important}
+.pager_theme_3 a{background:rgba(255,255,255,.5)!important}
+.frs_content{background:none!important}
+[class^="lzl"]{background-color:rgba(0,0,0,0)!important}
+#aside .mod{background:rgba(255,255,255,.1)!important;margin-bottom:9px!important}
+#aside .mod .tl,.l_aside .mod .tl,.region_header,#bakan_list>.right>.mod>.tl,#comment>.right>.mod>.tl{border-top-left-radius:4px!important;border-top-right-radius:4px!important}
+.pager a,.pager span:not(.s_nav_right),.itb_pager a{background:none repeat scroll 0 0 rgba(255,255,255,.5)!important}
+.entrance_rank_badge{background-image:url(http://imgsrc.baidu.com/forum/pic/item/a8014c086e061d952a1a02e87bf40ad163d9ca85.png)!important}
+[src*="static-frs/img/icon/"]{border-radius:2px}
+.threadlist_li_gray,#memTipPanel,#TipParentDiv,#com_userbar .u_ddl_con{background-color:rgba(255,255,255,.5)!important}
+.u_ddl_con li a{background:rgba(0,0,0,0)!important}
+#wd1{border:1px solid #B6B6B6!important}
+#wd1,.s_btn_wr,input.s_ipt{background:url(http://imgsrc.baidu.com/forum/pic/item/2f738bd4b31c8701b23c8736277f9e2f0608ff53.png) -304px 0 no-repeat!important}
+.tbsug_expand ul li.on{background:rgba(235,235,235,.8)!important}
+[class^="tbsug_expand"]{background-color:rgba(255,255,255,.5)!important}
+.s_h_title{background-image:url(http://imgsrc.baidu.com/forum/pic/item/2cf5e0fe9925bc31c60534485edf8db1ca137081.png)!important}
+.pager-search{padding-top:20px!important}
+.amPanel_bottom,.amPanel_top{opacity:.5!important}
+.adminModePanel_2 .amPanel_content{padding-bottom:17px!important}
+[class$="tbtn"]{margin:5px 1px!important}
+#my_friends_vote_detail{background-color:rgba(244,248,251,.7)!important}
+.threadlist_rep_num{background:-webkit-radial-gradient(bottom center,ellipse farthest-corner,rgba(255,255,255,.5),rgba(255,255,255,0) 75%) 0px -1px,url(http://imgsrc.baidu.com/forum/pic/item/a9d3fd1f4134970a858e25ff95cad1c8a6865d64.png) no-repeat!important;margin-top:2px!important}
+table[style*="background-color:#EEEEEE"]{background-color:rgba(238,238,238,.5)!important}
+.dialogJmodal{opacity:0!important}
+.aside#aside>div{margin-top:24px!important}
+.aside#aside>div:first-child{margin-top:0!important}
+#balv_mod .region_header{padding-top:0!important}
+[class*="subbtn_bg"]{height:27px!important}
+.l_container .left_section{background-color:rgba(0,0,0,0)!important}
+.sub_dir_box tr.even,#total_bar{background:rgba(247,247,247,.5)!important}
+.lzl_simple_wrapper{background-color:rgba(214,223,250,.3)!important}
+.lzl_panel_smile,.lzl_panel_submit_disabled,.insertsmiley_holder{background-image:url(http://imgsrc.baidu.com/forum/pic/item/d01373f082025aaf54f24b1bfbedab64024f1a19.png)!important}
+.lzl_panel_smile{bachground-position:1px -1px!important}
+#tab.tab_content .tab,.sub_nav li a,.sub_nav .current a{background:-webkit-linear-gradient(top,rgba(239,239,239,.75),rgba(253,253,253,.25))!important;border:1px #E6E6E6 solid!important}
+.ihead,#container:not(.ibody),.post_link #cmt_list .post,.post_link #cmt_list .post_split{background-image:none!important;background-color:transparent!important}
+.tb-editor-toolbar{border:0px!important}
+.tb-editor-toolbar>label,.l_banner,.tieba_top10{display:none!important}
+a{text-decoration:none!important}
+.module_sign .sign_line{background:0px center no-repeat!important}
+.module_sign .sign_line{background-image:url(http://imgsrc.baidu.com/forum/pic/item/b58f8c5494eef01fafd62d15e0fe9925bd317d1b.png)!important}
+.d_sign_split{background:url(http://imgsrc.baidu.com/forum/pic/item/eaf81a4c510fd9f905421b51242dd42a2834a4b5.png)!important}
+.module_sign .sign_line [src*="images/sign.png"]{opacity:0}
+.p_thread,.p_postlist{width:98%!important}
+.w750,#newTopPanel,.oneRow{background:rgba(255,255,255,.3)!important;-webkit-border-radius:5px!important}
+#content,#user{background:transparent!important}
+#op-imageEditPanel{box-shadow:0 0 15px 10px white!important}
+.ibody{-webkit-border-radius:5px!important;background:-webkit-linear-gradient(left,rgba(0,183,238,0) 76%,rgba(0,183,238,.2),rgba(0,183,238,0))!important}
+.common_source_top,.common_source_bottom{background-image:url(http://imgsrc.baidu.com/forum/pic/item/a8ec8a13632762d0dc3c906fa0ec08fa503dc6db.png)!important}
+.common_source_top,.common_source_bottom{opacity:.3!important}
+.common_source_main{border-left:1px solid rgba(220,220,220,.3)!important;border-right:1px solid rgba(220,220,220,.3)!important;background:rgba(250,250,250,.3)!important}
+.aside_menu li.sel{background-image:-webkit-linear-gradient(left,rgba(255,255,255,0),rgba(255,255,255,.75)75%,rgba(255,255,255,0))!important}
+#follow .back{background:rgba(241,246,255,.5)!important}
+.feed_hover{background:rgba(249,249,249,.5)!important;border-radius:5px}
+.twoRow{background:rgba(0,0,0,.03)!important}
+.w750 img[src*="/img/yh_"]{opacity:0!important}
+.for_reply{background:url(http://imgsrc.baidu.com/forum/pic/item/5366d0160924ab18492cd5e735fae6cd7b890b23.png) 10px 3px no-repeat,url(http://imgsrc.baidu.com/forum/pic/item/43a7d933c895d143470fd0f373f082025baf07e0.png) right 3px no-repeat!important}
+.sub_nav li,.sub_nav li.current,.sub_nav li a{border:0px!important;border-top-left-radius:5px!important;border-top-right-radius:5px!important}
+.sub_nav ul{top:6px!important;border-bottom:1px solid #E7E7E7}
+[src*="static-member/img/manage.png"]{border-bottom-left-radius:4px!important;border-top-right-radius:4px!important}
+.hightlight_row,.j_rank_row+.bawu_detail,.j_rank_row.active_rank_row td{background:rgba(243,243,243,.5)!important}
+.j_rank_row.hightlight_row.active_rank_row td{background:none!important}
+.always_go_list [class*="forum_ba_lv"]{height:20px!important;background-image:url(http://imgsrc.baidu.com/forum/pic/item/8b82b9014a90f60377c5a8973912b31bb151edec.png)!important}
+.always_go_list .forum_ba_lv2{background-position-y:-20px!important}
+.always_go_list .forum_ba_lv3{background-position-y:-40px!important}
+.always_go_list .forum_ba_lv4{background-position-y:-60px!important}
+.always_go_list .forum_ba_lv5{background-position-y:-80px!important}
+.always_go_list .forum_ba_lv6{background-position-y:-100px!important}
+.always_go_list .forum_ba_lv7{background-position-y:-120px!important}
+.always_go_list .forum_ba_lv8{background-position-y:-140px!important}
+.always_go_list .forum_ba_lv9{background-position-y:-160px!important}
+.always_go_list .forum_ba_lv10{background-position-y:-180px!important}
+.always_go_list .forum_ba_lv11{background-position-y:-200px!important}
+.always_go_list .forum_ba_lv12{background-position-y:-220px!important}
+.always_go_list .forum_ba_lv13{background-position-y:-240px!important}
+.always_go_list .forum_ba_lv14{background-position-y:-260px!important}
+.always_go_list .forum_ba_lv15{background-position-y:-280px!important}
+.always_go_list .forum_ba_lv16{background-position-y:-300px!important}
+.always_go_list .forum_ba_lv17{background-position-y:-320px!important}
+.always_go_list .forum_ba_lv18{background-position-y:-340px!important}
+.sub_tab_content{background-color:rgba(255,255,255,.5)!important;color:#000!important}
+.sub_nav li a{background:-webkit-linear-gradient(top,rgba(251,251,251,.75) 1px,rgba(240,240,240,.75) 2px,rgba(255,255,255,.5) 28px,transparent 28px)!important}
+#tieba_logo,#frs_nav,[src="http://img.baidu.com/img/post-jg.gif"],.expend_ba_link,.goTop,#search_submit,.sign_btn1,.s_logo,#main_header_logo,#signstar_wrapper,#tb_nav,.tbui_aside_float_bar,.sub_nav_wrap,.btn_more,.manager_page .logo,.nav_wrap,.forumInfo_nav_wrap,.appeal_right_wrapper .outer_caution{-webkit-transition:opacity 500ms!important;opacity:.7}
+#tieba_logo:hover,#frs_nav:hover,.s_logo:hover,#main_header_logo:hover,#signstar_wrapper:hover,#tb_nav:hover,.tbui_aside_float_bar:hover,.sub_nav_wrap:hover,.manager_page .logo:hover,.nav_wrap:hover,.forumInfo_nav_wrap:hover,.appeal_right_wrapper .outer_caution:hover{opacity:1!important;-webkit-transition:opacity 500ms!important}
+.p_bigMedia,.media_disp{background-color:rgba(250,250,250,.5)!important}
+#container #tab li{border-top-left-radius:5px;border-top-right-radius:5px}
+.calendar{background:rgba(255,255,255,.5)!important}
+input[type="text"],textarea,#editor .pt_valid_code input,.i,.c_captcha_input_normal{background-color:rgba(255,255,255,.3)!important;border:1px solid #B6B6B6!important}
+.s_container,.grid-m0s255 .main-wrap{background-color:rgba(255,255,255,.3)!important;border-radius:2px!important;box-shadow:0px 0px 5px rgba(0,0,0,.5)!important}
+.member_main{margin-right:10px!important}
+.s_container{margin:0 20px 0 20px!important}
+.s_post_list{padding-top:20px!important}
+.grid-m0s255 .main-wrap{margin-right:20px!important;margin-left:20px!important;margin-top:20px!important}
+.s_h_on{background-color:rgba(241,241,241,.5)!important;box-shadow:0 0 5px rgba(0,0,0,.5)!important}
+.tb-editor-overlay{background:rgba(255,255,255,.5)!important;box-shadow:inset 0 0 20px 5px white!important}
+.pic_list a{border-color:rgba(255,255,255,0)!important}
+.thread_list tr th,#featureList thead{background:rgba(238,238,238,.5)!important}
+.pager a:hover{background:rgba(236,243,255,.3)!important}
+.lzl_content_reply,.threadlist_abs,.tb_icon_author_rely,.threadlist_reply_date,.threadlist_rep_num ,.bakan_mod_txt dd,.for_reply,.b_reply_txt,.aside_user_profile,.feature_title_ext,.aside_menu li.sel,.th_footer_2,.th_footer_1,.storageTip,.block cite,#editor,.l_thread_info,.rc_content,.floor,[style*="color:#999"],.simple_block_container cite,#bakan_list>.right>.mod .cnt span.power,.member_title_set,#albumarea_info,.album_pb_tip,.bfloor,#comment>.right>.mod>.tl+.cnt .power,.bakanGradeBox *,.feedBackListBox .bfloor+table *,.frs_good_nav_wrap,#bakan_list .time,.aep_misc,.sign_rank_tab .return_time,.tofrs_up,.tofrs_down,.lzl_more,.j_pager.l_pager,.v_content .aside,.grey_info,.vote_info_right,.feat_right p,.feed_from,.core_reply_tail,.feed_time,.s_nav_right,.tb_icon_author,.fans_numbox,.my_tb_pmclink{text-shadow:1px 0 1px #fff,0 1px 1px #fff,0 -1px 1px #fff,-1px 0 1px #fff}
+.tb-editor-editarea{text-shadow:none}
+.region_1,.region_1 .region_header,.zyq_1 .tl,#bakan_list>.right>.mod .tl,#comment>.right>.mod>.tl{background:-webkit-linear-gradient(top,rgba(254,255,252,.5),rgba(244,247,243,.5)33%,rgba(244,238,237,.5)66%,rgba(244,238,237,.5)80%,rgba(244,238,237,0)100%)!important}
+.album_inner_container,#bakan_list>.right>.mod .cnt,#comment>.right>.mod>.tl+.cnt{border:0!important}
+.album_list_img_wrapper{box-shadow:rgba(255,255,255,.5) 0 0 5px 5px;background:rgba(255,255,255,.5)!important}
+.old_dir_rank,.tag_nav{background:rgba(255,255,255,.75)!important}
+.old_dir_rank{border-bottom-right-radius:5px;border-bottom-left-radius:5px}
+#bind_phone .big_tip{background:rgba(255,255,243,.5)!important}
+.album_pb_comment_leftquote,.album_pb_comment_dots,.album_pb_comment_rightquote{background-image:url(http://imgsrc.baidu.com/forum/pic/item/d009b3de9c82d1586bc26d61800a19d8bd3e4299.png)!important}
+.tb-editor-toolbar{background-color:transparent!important}
+.tb-editor-editarea{background:none!important;border:0!important;padding:0!important}
+.poster_success>p>strong{background:url(http://imgsrc.baidu.com/forum/pic/item/4034970a304e251f234ad028a786c9177e3e53a4.png) no-repeat!important}
+.tb_poster_info{background:rgba(255,252,210,.65)!important;border:1px solid rgba(212,212,212,.5)!important;box-shadow:3px 3px rgba(229,229,229,.5)!important;-webkit-animation-name:"banned_tip";-webkit-animation-duration:2s;-webkit-animation-timing-function:ease}
+@-webkit-keyframes 'banned_tip'{from{opacity:0}20%{opacity:1}30%{opacity:1}50%{opacity:0}to{opacity:0}}
+[style*="宋体"],[style*="宋体"] *:not([style*="font-family:"]){font-family:宋体!important}
+[style*="黑体"]{font-family:黑体!important}
+[style*="隶书"]{font-family:隶书!important}
+[style*="楷体_GB2312"]{font-family:楷体_GB2312!important}
+[style*="微软雅黑"]{font-family:微软雅黑!important}
+[style*="方正舒体"]{font-family:方正舒体!important}
+[style*="方正姚体"]{font-family:方正姚体!important}
+[style*="仿宋_GB2312"]{font-family:仿宋_GB2312!important}
+[style*="新宋体"]{font-family:新宋体!important}
+[style*="幼圆"]{font-family:幼圆!important}
+[style*="华文彩云"]{font-family:华文彩云!important}
+[style*="华文琥珀"]{font-family:华文琥珀!important}
+[style*="华文细黑"]{font-family:华文细黑!important}
+[style*="华文行楷"]{font-family:华文行楷!important}
+[style*="华文中宋"]{font-family:华文中宋!important}
+[style*="华文隶书"]{font-family:华文隶书!important}
+[style*="华文新魏"]{font-family:华文新魏!important}
+[style*="Arial"]{font-family:Arial!important}
+[style*="Broadway"]{font-family:Broadway!important}
+[style*="Comic Sans MS"]{font-family:'Comic Sans MS'!important}
+[style*="Courier New"]{font-family:'Courier New'!important}
+[style*="Magneto"]{font-family:Magneto!important}
+[style*="Tahoma"]{font-family:Tahoma!important}
+[style*="Times New Roman"]{font-family:'Times New Roman'!important}
+[style*="Verdana"]{font-family:Verdana!important}
+.dialogJ .dialogJcontent,.aep_wrapper,.sub_nav ul{background:none!important}
+#classify_manage_table table th,#bdshare p,#bdshare_s p{background-color:rgba(234,234,234,.5)!important}
+#bdshare h6, #bdshare_s h6{background-color:rgba(246,246,246,.5)!important}
+.FeDialog_inner,#bdshare_m{background:none!important}
+#bdshare_m_c,.FeDialog .FeDialogButtonBar{background:rgba(255,255,255,.5)!important}
+.FeDialogContent{background:rgba(255,255,255,.75)!important}
+.FeDialog{box-shadow:0 0 0 10000px rgba(255,255,255,.4)!important}
+.FeDialog .FeDialogCaption{background:rgba(112,156,210,.75)!important}
+.FeDialog_wrapper{box-shadow:0 0 0 1px rgba(112,156,210,.5)!important}
+.FeDialog_shadow,.p_favthr_listshadow{display:none!important}
+.FeDialog{box-shadow:2px 2px 2px #999!important}
+.bawu_classity_edit{background:rgba(255,255,211,.5)!important}
+.dialogJ{box-shadow:rgba(0,0,0,.4) 0 0 0 10000px!important}
+.dialogJ,.tb-editor-overlay,#TipParentDiv,.FeDialog,#tb_message_tip,#tb_message_tip_n,.media_box,#album_hl_container{-webkit-animation-name:"opacity";-webkit-animation-duration:.25s;-webkit-animation-timing-function:ease-in}
+.j_succ_info{-webkit-animation-name:"opacity";-webkit-animation-duration:.5s;-webkit-animation-timing-function:ease-in}
+@-webkit-keyframes 'opacity'{from{opacity:0}to{opacity:1}}
+.j_global_search+*{display:none!important}
+.p_postlist{border:none!important}
+.goTop{left:auto!important;right:0!important}
+#bakan_list>.left>.inner{padding:10px!important}
+#bakan_list .right{padding-top:0!important}
+#bakan_list>div{margin-top:10px!important}
+:not(.core_title_absolute)>.core_title{margin-bottom:20px!important}
+#album_min_height_wrapper,.j_nvb_li_normal,.v_content .content_leftList{background:rgba(255,255,255,.5)!important}
+.albumlist_layout{background:-webkit-linear-gradient(left,rgba(235,235,235,0)750px,rgba(210,210,210,.5)750px)!important}
+.tededitor-toolbar-holder{background-color:rgba(239,239,222,.5)!important}
+.tededitor-toolbar-holder span.hover{background-color:rgba(216,242,255,.5)!important}
+.group-layout .button{border-color:transparent}
+.group-layout .button:not(.button-fontname):not(.button-fontsize){background-image:url(http://imgsrc.baidu.com/forum/pic/item/4ec2d5628535e5dd60ab910f76c6a7efcf1b625e.png)!important}
+.fauxselect-popup li.selected,.tededitor-toolbar-holder span.hover{border-color:rgba(81,101,136,.5)!important;background-color:rgba(216,242,255,.5)!important}
+.fauxselect-popup,.fauxselect-popup li{background-color:rgba(255,255,255,.6)!important}
+#bakan_edit td[style*="bakan/img/num1_icon.gif"]{background-image:url(http://imgsrc.baidu.com/forum/pic/item/810a19d8bc3eb1359e79836ba61ea8d3fc1f44a7.png)!important}
+#bakan_edit td[style*="bakan/img/num2_icon.gif"]{background-image:url(http://imgsrc.baidu.com/forum/pic/item/a044ad345982b2b7be270d1431adcbef77099ba1.png)!important}
+#bakan_edit td[style*="bakan/img/num3_icon.gif"]{background-image:url(http://imgsrc.baidu.com/forum/pic/item/472309f7905298224fb00d13d7ca7bcb0b46d45a.png)!important}
+#bakan_edit td[style*="bakan/img/num4_icon.gif"]{background-image:url(http://imgsrc.baidu.com/forum/pic/item/0bd162d9f2d3572c3758a80c8a13632763d0c3a3.png)!important}
+#page_list_panel .bk_edit_page_btn a{background:url(http://static.tieba.baidu.com/static/tb/img/del.gif) no-repeat center!important}
+#bk_edit_page_order .turn_pre{background-image:url(http://imgsrc.baidu.com/forum/pic/item/060828381f30e924a25aa8e14c086e061c95f767.png)!important}
+#bk_edit_page_order .turn_next{background-image:url(http://imgsrc.baidu.com/forum/pic/item/503d269759ee3d6d663bb31b43166d224e4ade64.png)!important}
+#bakan_notice{background:rgba(254,255,219,.5)!important}
+#container.clearfix>table+.tb+#view_content+.tb+#comment>.left{padding:10px!important}
+#container.clearfix>table+.tb+#view_content+.tb+#comment{padding:5px!important}
+#container.clearfix>table+.tb+#view_content{width:auto!important;background:rgba(255,255,255,.75)!important;padding-top:10px!important;margin-bottom:10px!important;padding-bottom:10px!important}
+#container.clearfix>table+.tb+#view_content>#bakan_info{width:765px!important;margin:0 auto!important}
+.v_content .aside{background:rgba(210,210,210,.5)!important}
+.FeDialog_wrapper tr.middle_ td.left_,.FeDialog_wrapper tr.middle_ td.right_{width:0!important}
+.FeDialog_inner{padding:0!important}
+.sign_title_text1,.sign_title_text_bright{background:url(http://imgsrc.baidu.com/forum/pic/item/34fae6cd7b899e51ecb80dc442a7d933c8950d2f.png)!important}
+#head a[style*="background"],#aside_ad,.u_mobile,.u_mobile+.split,#search_baidu_promote{display:none!important}
+.p_content .summary,.p_content .refer_url{background:rgba(247,247,247,.5)!important}
+.subtab:not(.sign_rank_tab_focus) div{background:rgba(255,255,255,.5)!important}
+.p_content .summary,.p_content .refer_url{border-left:1px #F7F7F7 solid;border-right:1px #F7F7F7 solid}
+.p_content .summary{border-top:1px #F7F7F7 solid}
+.p_content .refer_url{border-bottom:1px #F7F7F7 solid;border-top:1px #F7F7F7 dotted}
+#main_header_logo{display:inherit!important}
+.tb_picasso_content{background-color:white!important}
+.sketchpad_v_toolbar{background:rgba(239,241,244,.75)!important}
+.sketchpad_v_toolbar [class*="sketchpad_"]:not(div):not(ul),.sketchpad_h_toolbar button:not(.sketchpad_finish){background-image:url(http://imgsrc.baidu.com/forum/pic/item/8d5494eef01f3a29b9f8e21e9925bc315c607c29.png)!important}
+.vote_progress_base,.tt_guidetexture{background:rgba(229,229,229,.5)!important}
+.core_reply_border_top,.core_reply_wrapper,.lzl_link_fold,.core_reply_border_bottom{background:none!important}
+.core_reply_content{border:none!important;padding:none!important}
+.core_reply_wrapper{margin-bottom:0!important}
+.lzl_simple_wrapper,.left_section .core,.left_section .core .l_post{width:auto!important}
+.lzl_editor_container .lzl_panel_wrapper{width:100%!important}
+.left_section .core{border:none!important}
+.core_reply_content{padding-right:0px!important}
+.lzl_link_fold{width:48px!important}
+.nav_forum_menu .btn_inherit,.pc2client{display:none!important}
+#bdshare_s+.top+.head{-webkit-mask-image:-webkit-linear-gradient(top,rgba(255,255,255,.75)75%,transparent)!important}
+#edit_parent .edit_title_field,#edit_parent .tb-editor-wrapper{background-color:rgba(255,255,255,.3)!important}
+.feat_refreshlink,.refreshbtn{background-image:url(http://imgsrc.baidu.com/forum/pic/item/574e9258d109b3de388cd3b8ccbf6c81800a4c2a.png)!important}
+.returnbtn{background-image:url(http://imgsrc.baidu.com/forum/pic/item/fcfaaf51f3deb48f1c5b960ef01f3a292df5782b.png)!important}
+.feat_time{background-image:url(http://imgsrc.baidu.com/forum/pic/item/c8177f3e6709c93dccdf39279f3df8dcd1005434.png)!important}
+.feat_replynum{background-image:url(http://imgsrc.baidu.com/forum/pic/item/0df431adcbef76093927ae4f2edda3cc7cd99e35.png)!important}
+.dialogJ{overflow:initial!important}
+.sign_rights_icon_line{background:none!important;border-bottom:dotted 1px #CCC!important}
+.dialogJ.dialogJshadow,.enter_pb_wrapper,.text_point{background:none!important}
+.uiDialogWrapper{background:rgba(255,255,255,.5)!important}
+.dialogJ .dialogJtitle{background:rgba(248,248,248,.5)!important}
+.dialogJ a.dialogJclose{background-image:url(http://imgsrc.baidu.com/forum/pic/item/9f2f070828381f30f114ba79a9014c086f06f0d4.png)!important}
+.p_putUp,.p_originPic{background-image:url(http://tb2.bdstatic.com/tb/static-frs/img/v2/tb_icon.png)!important}
+.p_putUp{background-position:0 -922px!important}
+.p_originPic{background-position:0 -960px!important}
+.af_container{background:rgba(0,0,0,.7)!important}
+.af_right{background:rgba(24,24,24,.7)!important}
+.af_nav,.carousel_li .img_wrap,.af_nav_head,.af_container+.dropdown_expand,.af_cross_tip{background:rgba(51,51,51,.7)!important}
+.af_reply_editor_entry{background:rgba(130,130,130,.5)!important}
+.af_right_fold{opacity:.75!important}
+#main_back_img,#main_back_bottom,html{background:none!important}
+#footer{opacity:0!important;pointer-events:none!important}
+#root_dir{background:rgba(204,204,255,.5)!important}
+#adminModePanel .amPanel_content>a{margin:2px!important;margin-top:10px!important}
+.tb_icon_fav{background-image:url(http://imgsrc.baidu.com/forum/pic/item/4b90f603738da977b5d5c913b151f8198618e314.png)!important}
+.af_reply_editor .tb-editor-editarea{color:#CCC!important}
+.gl_block{background-color: rgba(247, 247, 247, 0.5)!important}
+.good_right,.grbm_ele_wrapper{background-color: rgba(255, 255, 255, 0.5)!important}
+.gr_block,.dialogJ{background:none!important}
+#good_list_inner,.aside_album_good{border-radius:2px!important;box-shadow:0px 0px 5px rgba(0,0,0,.5)!important;background:rgba(255,255,255,.3)!important}
+.aside_album_good{padding-top:15px!important}
+#memTipPanel,#tip_iframe,#TipParentDiv{height:auto!important}
+#eval_panel{display:block!important}
+.core_title_wrap{width:980px!important}
+.core_title_absolute{border-bottom:none!important}
+.star_content,.ag_container,.tbui_aside_smiley{border-radius:2px!important;box-shadow:0px 0px 5px rgba(0,0,0,.5)!important;background:rgba(255,255,255,.3)!important}
+.thread_theme_4{border:none!important}
+.s_nav,#main{background:none!important}
+.sign_mod_btn_down_line{background:none!important;border-bottom:dashed 1px #CCC}
+.sign_mod_btn_down_link,.sign_ad_mobi{display:none!important}
+.thread_theme_4,.core_title_wrap{border:none!important}
+.l_post{background-image:none!important}
+.main_wrapper#main_wrapper{background:none!important;border:none!important}
+.uiDialogWrapper{background:rgba(255,255,255,.5)!important;box-shadow:rgba(100,100,100,.25) 0 0 0 5px!important}
+.quick_thread_theme2,.quick_thread_theme2 li:hover,.pprefix-list{background:rgba(255,255,255,.5)!important}
+[id*="eInput"]{background-color:transparent!important;border:none!important}
+.head_bright,.forum_foot,.wrap_bright{background:none!important}
+.forum_content,.tbui_aside_favor_list{border-radius:2px!important;box-shadow:0px 0px 5px rgba(0,0,0,.5)!important;background:-webkit-linear-gradient(right,rgba(220,220,220,.3)238px,rgba(255,255,255,.3)238px)!important}
+.forum_content>#aside.side>div,.forum_content>#aside.side>#zyq>.mod.j_editable,.forum_content>#aside.side>.sign_mod_bright{background:none!important;border-radius:none!important;box-shadow:none!important}
+.container_bright .content{border:none!important}
+.threadlist_bright li:hover,.frs_good_nav_main_bright{background-color:rgba(247,249,252,.5)!important}
+.i_layer_bottom,.l_album_rwrapper,.frs_repost{background-color:rgba(238,238,238,.5)!important}
+.threadlist_bright .threadlist_reply_date{width:auto!important}
+.forum_content .threadlist_rep_num{background-image:url(http://imgsrc.baidu.com/forum/pic/item/2cf5e0fe9925bc314d52bcd55fdf8db1cb13706b.jpg)!important;background-repeat:no-repeat!important}
+.tb_layer_wrapper{text-shadow:none!important}
+.container_bright .tb_icon_author a{text-shadow:1px 0 1px #fff,0 1px 1px #fff,0 -1px 1px #fff,-1px 0 1px #fff}
+.card_top:not([style]){background-image:url(http://imgsrc.baidu.com/forum/pic/item/d833c895d143ad4bb31dfa7283025aafa40f0654.jpg)!important}
+.like_col,.l_add,.tb_layer_wrapper .layer_content{background:rgba(255,255,255,.5)!important}
+.tbui_tabs_nav{background:rgba(248,248,248,.5)!important}
+.img_layer_content .i_ul a{background-image:url(http://imgsrc.baidu.com/forum/pic/item/b90e7bec54e736d1629f8ab79a504fc2d4626984.jpg)!important}
+.hgame_mod_theme1,.hgame_mod_theme2,.j_surveillance,.editor_surveillance,.images_game_container,.af_head_gamelink{display:none!important}
+.star_head.star_head_theme1,#star_collect_time_axis_body{border-radius:2px!important;background:rgba(255,255,255,.3)!important;box-shadow:0px 0px 5px rgba(0,0,0,.5)!important}
+.star_picbox{-webkit-mask-image:-webkit-linear-gradient(bottom,rgba(0,0,0,0) 5px,#000 10px)!important}
+.star_head.star_head_theme2,.star_collect_body/*,.star_nav_wrap*/{background:rgba(255,255,255,.3)!important}
+.star_collect_time_axis_body{margin-top:10px!important;padding-top:5px!important}
+#follow{background:none!important}
+.star_time_axis .time_axis_summary,.album_info_content{background:rgba(248,248,248,.5)!important}
+.star_collect_time_axis_body .time_axis_summary_arrow,.time_axis_slide_arrow{background-image:url(http://imgsrc.baidu.com/forum/pic/item/637c9618367adab4bd9442d78ad4b31c8601e440.jpg)!important}
+.star_collect_time_axis_body .time_axis_summary_arrow{opacity:0.5}
+.star_time_axis_body_small{-webkit-mask-image:-webkit-linear-gradient(bottom,rgba(0,0,0,0),#000 5px)!important}
+.album_outer_container{background-image:url(http://imgsrc.baidu.com/forum/pic/item/f9b5e703918fa0ec1daa3e99279759ee3c6ddb9e.jpg)!important}
+.manager_page .page_aside{border-radius:2px!important;background:rgba(63,122,198,.5)!important;box-shadow:0px 0px 5px rgba(0,0,0,.5)!important}
+.manager_page .page_aside .nav_section .active,.manager_page .page_aside .user_info{background-color:rgba(29,80,145,.5)!important}
+.manager_page .page_aside+.aside_slide_button,.manager_page .app_list li{background:rgba(63,122,198,.5)!important}
+.manager_page .app_list li{-webkit-transition:all 0.2s}
+.manager_page .app_list li:hover{background:#3f7ac6!important}
+.manager_page .main_content,.manager_page .head{border-radius:2px!important;background:rgba(255,255,255,.3)!important;box-shadow:0px 0px 5px rgba(0,0,0,.5)!important}
+.manager_page .main_content>div{background:none!important}
+.manager_page .data_table th,.manager_page h5{background-color:rgba(251,251,251,.5)!important}
+.manager_page .data_table td,.manager_page .success_box{background-color:rgba(255,255,255,.3)!important}
+.manager_page .return_to_old,.manager_page .page_aside,.manager_page .app_list li{text-shadow:0 0 5px #000,0 0 5px #000!important}
+.manager_page .nav_section dt.homepage{background-image:url(http://imgsrc.baidu.com/forum/pic/item/a86ba9773912b31bbf29e7ab8718367ad8b4e1d5.jpg)!important}
+.search_main,.search_form_fixed{background-color:transparent!important}
+.m_button_panel,.m_selected_list{background-color:rgba(240,240,240,.5)!important}
+.search_main_fixed{border-radius:2px!important;background:rgba(255,255,255,.3)!important;box-shadow:0px 0px 5px rgba(0,0,0,.5)!important}
+.game_item,.ueg_policy_open,.search_union_mod,.search_bottomad{display:none!important}
+.bottom-bg,.page-container .content-sec,.left-cont-wraper .user-wraper,.page-container .f_class_list{background:none!important}
+.page-container .left-cont-wraper,.page-container .new_list,.page-container .footer,.page-container+.footer,.page-container .right_wrap>.item,.page-container .r-top-sec,.page-container>.container>.content>.right-sec{border-radius:2px!important;background:rgba(255,255,255,.3)!important;box-shadow:0px 0px 5px rgba(0,0,0,.5)!important}
+.page-container .class_info,.page-container .f_class_list_wrap{border-radius:2px!important;background:rgba(247,249,252,.3)!important;box-shadow:0px 0px 5px rgba(0,0,0,.5)!important}
+.new_list{margin:2px!important;padding:16px 8px 0 8px!important}
+.item .item_hd,.day_rcmd .class_title,.d-up-frame,#personal-sub-nav{background:rgba(251,251,251,.5)!important}
+.rank_num,.rank_up,.rank_down,.dr_container .dr_desc,.t_right .expand,.t_right .tb_icon{background-image:url(http://imgsrc.baidu.com/forum/pic/item/4ea9d41373f0820223342ac04afbfbeda9641b89.jpg)!important}
+.top_progress_bar span, .top_progress_bar ul li{background-image:url(http://imgsrc.baidu.com/forum/pic/item/266d9f504fc2d562abaa5013e61190ef77c66c07.jpg)!important}
+.f-d-item-hover{background-image:url(http://imgsrc.baidu.com/forum/pic/item/45e14eed2e738bd408f334cfa08b87d6257ff9d0.jpg)!important}
+.square_pager a{background:rgba(255,255,255,.5)!important}
+.page-container>.container>.content>.right-sec{padding:15px!important}
+.titlg{background-color:rgba(227,249,235,.5)!important}
+.j_search_nav_replace{background-color:rgba(246,247,251,.5)!important}
+.editor_tip_show div:not(.editor_banned_tip_info),.l_client,.lzl_panel_wrapper td[style="width: 75%;"],.game_rank{display:none!important}
+.for_relation_forum_bg,.wrap_bright .content,.star_nav_btns_wrap{background:none!important}
+.s_h_title{background-color:transparent!important}
+.wrap_bright .content{border:none!important}
+.tb_rich_poster .poster_body .editor_textfield{border-radius:2px!important;background:rgba(255,255,255,.3)!important;box-shadow:0px 0px 5px rgba(0,0,0,.5)!important}
+.p_reply_first, .lzl_link_unfold, .lzl_s_r{background-image:url(http://imgsrc.baidu.com/forum/pic/item/0eafc1c8a786c917a0a056fcc83d70cf3ac7573d.jpg)!important}
+.kn_nine_wrap{background-color:rgba(255,255,255,.5)!important}
+.tb_poster_info.poster_success{font-size:0px!important}
+.tb_poster_info.poster_success>p:not(.acquire_score_tip)>*:not(strong),.sign_client_dl_link,.lucky_lottery,.lecai_lottery,.leicai_lottery,.lecai_lottery_frs,iframe[src*="lecai"],iframe[src*="lottery"]{display:none!important}
+.tb_poster_info.poster_success>p>strong,.tb_poster_info.poster_success .acquire_score_tip{font-size:12px!important}
+.tb_poster_info.poster_success .acquire_score_tip{background-position:100px -246px;padding-right:16px}
+.platact_inner,.old_style_wrapper,.platforum_aside_images,.tb-simpleeditor-wrapper{border-radius:2px!important;background:rgba(255,255,255,.3)!important;box-shadow:0px 0px 5px rgba(0,0,0,.5)!important}
+.plat_head_v2_unmain_wrapper,.plat_head_v2_main_wrapper,.plat_head,.bar-info-wraper{background:rgba(255,255,255,.3)!important}
+.edui-toolbar,.edui-editor-body .edui-body-container,#head,.time_keeper{background:none!important}
+.sign_title_text1,.sign_title_text_bright,.tb_poster_placeholder,.tbui_fbar_game,.game_frs_head,.game_spread_thread,#j_ten_years,.frs_game_spread{display:none!important}
+.frs_qunzu_wrpa,.mz_threadlist_bright li{background-color:rgba(255,255,255,.5)!important}
+.container_wrap{border-radius:2px!important;box-shadow:0px 0px 5px rgba(0,0,0,.5)!important}
+.forum_info_left_aside,.forum_info_wrap .bawu_team_wrap,.forum_info_wrap .member_wrap,.forum_info_wrap .tbui_pagination{background-color:rgba(255,255,255,.3)!important}
+.forum_info_right_aside,.skin_rank{background-color:rgba(210,210,210,.3)!important}
+.bawu_team_wrap{margin:0 auto!important;padding:0 20px}
+.forum_info_wrap .tbui_pagination{padding:20px 10px 30px!important;margin:0!important}
+.time_keeper{border:none!important}
+.mz_rolling_pic,.mz_rolling_threadlist,.meizhi_auth_link{border-radius:2px!important;background:rgba(255,255,255,.3)!important;box-shadow:0px 0px 5px rgba(0,0,0,.5)!important}
+.mz_threadlist_bright li:hover{background-color:rgba(247,249,252,0.5)!important}
+.appeal_wrapper{border-radius:2px!important;background:-webkit-linear-gradient(left,rgba(63,122,198,.5)131px,rgba(255,255,255,.5)131px)!important;box-shadow:0px 0px 5px rgba(0,0,0,.5)!important}
+.nav_wrapper .nav_cur,.appeal_wrapper .nav_wrapper li.pm_userinfo{background-color:rgba(29,80,145,.5)!important}
+.appeal_right_wrapper,.blueblock{background:none!important}
+#loadingDelpostInfo,.set-recover-tips-wrapper .no-unusual-tip,.set-recover-tips-wrapper .no-delpost-tip,.privilege-makeup,.announcement,.hand-by-hand-teach,.blueblock_content_wrapper,table.pm_del_tb{background:rgba(255,255,255,.5)!important;border-radius:2px}
+.group_heat_container,.official_groups_container{background-color:rgba(247,248,250,.5)!important}
+.l_container .content,.p_thread,.pb_content,.pb_footer,.l_post_bright .d_post_content_main{background:none!important}
+.l_post_bright,.l_post_bright .core_reply_wrapper,.p_thread{width:auto!important}
+.p_thread,.pb_content,.l_post_bright .core_reply_tail .lzl_link_fold,.pb_footer{border:none!important}
+.l_post_bright{border-left:none!important}
+.core_reply_border_top,.lot_wrap{display:none!important}
+.tb_floating_poster{padding:15px!important;background-color:rgba(255,255,255,.3)!important}.
+#replyBusinessImg,.tbui_follow_fixed .userbar,.edui-btn-voice,.search_main_fixed .userbar,#pop_frame,.pb_np_get,.nav_list a.icon_game,.cont_sign_banner{display:none!important}
+.core_title_theme_bright .core_title_btns{margin-right:20px!important}
+.tb_rich_poster.tb_floating_poster{padding:20px!important}
+.threadlist_bright li.thread_top_list_folder, .threadlist_bright li.thread_top_list_folder:hover{background-color:transparent!important}
+.tb_paper_top{opacity:0.75;transition:0.5s all linear}
+.tb_paper_top:hover{opacity:1;transition:0.5s all linear}
+.tb_rich_poster .poster_floating_toolbar{background-color:rgba(250,250,250,.3)}
+.tb_poster_info.poster_success p.acquire_score_tip{background-position: 85px 1px !important}
+.tb_poster_info.poster_success p.acquire_score_tip span{padding-left:16px!important}
+.sofa_post{width:100%!important;background-color:rgba(255,255,255,.3)!important}
+.sofa_post_bright .d_post_content_main,.sofa_content,.score_show .egg_block{background:none!important}
+.card_top{background-color:transparent!important}
+.worldcup_rank_tab,.worldcup_rank_list,.worldcup_rank_btn_area,#game_pop_window,.game_tab,.game_content,.fifa_card_title,.fifa_card,.fifa_card_foottips,.worldcup_rank,#tbmall_score_region,.search_form_fixed #com_userbar,.tbui_follow_fixed #com_userbar,.search_fengchao,.BAIDU_CLB_AD,.BAIDU_CLB_AD_pb{display:none!important}
+.j_thread_list{background-color:transparent!important}
+.j_thread_list.fiesta_member:hover{background-color:rgba(255,255,229,.5)!important}
+.spreadad,.worldcup_guess_frs_wrap,#worldcup_guess_frs_wrap,.worldcup_info_banner_wrap,.per_list_index,.platact_bigouter,#adide_platform,.tbui_aside_fbar_button.tbui_fbar_square,.edui-btn-voice,.lzl_panel_voice,.pb_np_get,.ihome_game_group,#j_navtab_game,.thread_local_ganji,.guessing_watermark,.thread_local_58,[class*="thread_local"],.u_news+.split,.u_app,.u_app+.split,.u_tbmall,.u_tbmall+.split,.u_tshow,.u_game,.u_xiu8,.u_wallet{display:none!important}
+.card_top_wrap{background:-webkit-linear-gradient(top,rgba(245, 247, 250, 0.5),rgba(242, 244, 247, 0.5))!important}
+div.card_top,div.card_top:not([style]),.edui-btn-scrawl,#pop_video{background-image:none!important}
+.frs_act_repost_wrapper_outter,#pop_video .pop_video_inner,.complaint{background:rgba(255,255,255,0.3)!important}
+.search_bright .search_logo_fixed,.bawu_intro,.pmc_head+.grayblock>.grayblock_content_wrapper,.sofa_post{background-color:transparent!important}
+#pop_video .pop_video_inner{5px solid rgba(0,0,0,0.3)}
+.pmc_head+.grayblock,.right_wrap>.member_rank{border-radius:2px!important;background:rgba(255,255,255,.3)!important;box-shadow:0px 0px 5px rgba(0,0,0,.5)!important}
+.pmc_head+.grayblock>.grayblock_title{background:rgba(210,210,210,0.2)!important}
+.ui_bubble_wrap .ui_bubble_content{background-color:rgba(255,255,218,0.75)!important}
+.right_wrap>.member_rank{margin-bottom:10px!important}
