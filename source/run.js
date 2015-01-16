@@ -9,6 +9,7 @@ if(window.localStorage.getItem('tbbg_setting')){
 		doc=document.documentElement,
 		bg,
 		bg_white,
+		tbbg_image_list = localStorage.getItem('tbbg_image_list') ? localStorage.getItem('tbbg_image_list').split(',') : [],
 		seed;
 	if(typeof document.getElementsByTagName('tbbg')[0]=='undefined'){
 		node=document.createElement('tbbg');
@@ -36,7 +37,15 @@ if(window.localStorage.getItem('tbbg_setting')){
 		bg_white.className='TBBG_bg_white';
 		bg_white.style.background='rgba(255,255,255,'+tbbg_value.imga/100+')';
 		node.appendChild(bg_white);
-		var num=parseInt(Math.random()*tbbg_value.imgnum+1);
+		//var num=parseInt(Math.random()*tbbg_value.imgnum+1);	
+		if(tbbg_image_list.length == 0){
+			for (var i = 0; i < tbbg_value.imgnum; i++) {
+				tbbg_image_list[i] = i+1;
+				//console.log(i)
+			}
+		}
+		console.log(tbbg_image_list)
+		var num = tbbg_image_list.splice(parseInt(Math.random()*tbbg_image_list.length), 1)[0];
 		bg.style.backgroundImage='url(chrome-extension://'+tbbg_value.id+'/'+num+'.jpg)';
 		if(tbbg_value.topa=='true'){
 			seed=document.createElement('div');
@@ -44,5 +53,6 @@ if(window.localStorage.getItem('tbbg_setting')){
 			node.appendChild(seed);
 		}
 	}
+	localStorage.setItem('tbbg_image_list', tbbg_image_list.join(','));
 	console.log('%cTieBa-Background%c 背景图片载入时间统计（自注入背景图片起开始计时至注入样式后停止计时）：'+(new Date().getTime()-t0)+'ms','color:#4a82f0;text-decoration:underline','color:#4a82f0');
 }

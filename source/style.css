@@ -375,8 +375,37 @@ input[type="text"],textarea,#editor .pt_valid_code input,.i,.c_captcha_input_nor
 div.card_top,div.card_top:not([style]),.edui-btn-scrawl,#pop_video{background-image:none!important}
 .frs_act_repost_wrapper_outter,#pop_video .pop_video_inner,.complaint{background:rgba(255,255,255,0.3)!important}
 .search_bright .search_logo_fixed,.bawu_intro,.pmc_head+.grayblock>.grayblock_content_wrapper,.sofa_post{background-color:transparent!important}
-#pop_video .pop_video_inner{5px solid rgba(0,0,0,0.3)}
+#pop_video .pop_video_inner{outline:5px solid rgba(0,0,0,0.3)}
 .pmc_head+.grayblock,.right_wrap>.member_rank{border-radius:2px!important;background:rgba(255,255,255,.3)!important;box-shadow:0px 0px 5px rgba(0,0,0,.5)!important}
 .pmc_head+.grayblock>.grayblock_title{background:rgba(210,210,210,0.2)!important}
 .ui_bubble_wrap .ui_bubble_content{background-color:rgba(255,255,218,0.75)!important}
 .right_wrap>.member_rank{margin-bottom:10px!important}
+.per_list_frs,#pop_frame,/*.thread_1st,*/.dasense,[class*="dasense"],[data-daname],[id*="dasense"],#threadListGroupCnt,.content_top,.u_baiduPrivilege,.u_baiduPrivilege+.split,.u_joinvip,.tbui_fbar_props,.add_guessing_btn,.add_guessing_btn+.split_text,.spage_liveshow_slide,#spage_liveshow_slide,.member_rank,#__bdyx_tips_icon,.bdyx_tips_icon_,#__bdyx_tips,.bdyx_tips_,.encourage_entry,.baidu-tuisong-wrap,.baidu-tuisong,.tbui_fbar_home,.j_aside_float_bar_go_home,#global_notice_wrap,.global_notice_wrap,.firework_sender_wrap,.spage_liveshow_slide,#spage_liveshow_slide,.item.jingxuan,.member_rank,.item.jingxuan+div,.reward_btn,.icon_tbworld.tbworld_lv2_gray,.baidutuisong-xiaoxiong,.j_couplet,.couplet_left,.couplet_right,.j353fc229f,.save_face_bg,.u_appcenterEntrance,.nav_list a.icon_wanle,.profile_bottom,.threadlist_bright>li.clearfix:not(.j_thread_list),.BAIDU_CLB_AD,.BAIDU_CLB_AD_frs,.l_post_bright.clearfix:not(.l_post),#spage_game_tab_wrapper,.advertise_right_index/*,.supervip_dialog*/,.tshow_out_date_warn,#tshow_out_date_warn{display:none!important}
+.lzl_editor_container .editor_for_container{width:765px!important;background:rgba(255,255,255,0.5)!important}
+div.lzl_editor_container>table.lzl_panel_wrapper>tbody>tr>td[style="width: 75%;"]{display:block!important}
+.lzl_edui_dialog_container{left:-380px!important}
+.lzl_insertsmiley_holder{background:none!important}
+.left-cont-wraper{margin-top:10px!important}
+a.ps_cb{color:#000!important;pointer-events:none!important;cursor:text!important}
+.edui-editor-body{background-color:transparent!important}
+.edui-container{width:auto!important}
+.edui-editor-body .edui-body-container.editor_lzl_container{width:auto!important}
+#com_userbar_message,.com_userbar_message{right:30px!important}
+.user-hide-post-down{right:20px!important}
+.lzl_single_post .user-hide-post-down{right:-20px!important}
+.recom_scroll,.media_box,.profile_bottom,#agreementForm, .apply_agreement{background-color:rgba(255,255,255,0.5)!important}
+div.op-pic-edit>div#op-imageEditPanel{box-shadow:none!important}
+a.complaint{background:none!important}
+.lzl_single_post .user-hide-post-down,.user-hide-post-up{top:0px!important;right:0px!important}
+.fMember_cnt{display:none!important}
+.user_level{margin-left:0!important}
+.user_level .rank,.user_level .badge{display:inline-block!important}
+.user_level .exp{width:auto!important}
+.user_level .exp_bar{margin:0 0 0 40px!important}
+.form_step2 .agreement_step{background-color:#ffffff!important}
+.forum_list_position{color:#cccccc!important}
+.nav_section dt:hover, .nav_section.active dt, .nav_section.active, .bazhudaxue-section a{background-color: rgba(92, 127, 181, 0.75) !important}
+.nav_section a:hover, .nav_section dd.sub_active a{text-shadow: #cccccc 0 0 5px,#cccccc 0 0 5px !important}
+.manager_page .forum_list_drag a{color: #ffffff !important}
+.manager_page .nav_section dt.zyq .nav_icon, .manager_page .nav_section dt.post .nav_icon, .manager_page .nav_section dt.hr .nav_icon, .manager_page .nav_section dt.settings .nav_icon, .manager_page .nav_section dt.data .nav_icon, .manager_page .nav_section dt.user .nav_icon, .manager_page .nav_section dt.activity .nav_icon, .manager_page .nav_section dt.bless .nav_icon, .manager_page .nav_section dt.clout .nav_icon, .manager_page .nav_section dt.star_schedule .nav_icon, .manager_page .nav_section dt.bus_activities .nav_icon, .manager_page .bazhudaxue-section .school_icon{background-image: url(http://imgsrc.baidu.com/forum/pic/item/11e7a9014a90f6034ee3b2e13a12b31bb151edae.jpg) !important}
+.bawu_check_hard {border-radius: 50% !important}
