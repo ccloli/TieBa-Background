@@ -409,3 +409,31 @@ a.complaint{background:none!important}
 .manager_page .forum_list_drag a{color: #ffffff !important}
 .manager_page .nav_section dt.zyq .nav_icon, .manager_page .nav_section dt.post .nav_icon, .manager_page .nav_section dt.hr .nav_icon, .manager_page .nav_section dt.settings .nav_icon, .manager_page .nav_section dt.data .nav_icon, .manager_page .nav_section dt.user .nav_icon, .manager_page .nav_section dt.activity .nav_icon, .manager_page .nav_section dt.bless .nav_icon, .manager_page .nav_section dt.clout .nav_icon, .manager_page .nav_section dt.star_schedule .nav_icon, .manager_page .nav_section dt.bus_activities .nav_icon, .manager_page .bazhudaxue-section .school_icon{background-image: url(http://imgsrc.baidu.com/forum/pic/item/11e7a9014a90f6034ee3b2e13a12b31bb151edae.jpg) !important}
 .bawu_check_hard {border-radius: 50% !important}
+.thread_recommend, .com_u9_head, .p_postlist > div[data-daid], [data-field*='"user_id":1480194257'], [data-field*='"\u623f\u4ea7\u5feb\u8baf\u5927\u7ba1\u5bb6"'], [data-field*='"房产快讯大管家"'], div[data-daid], [data-field*='"\u623f\u4ea7\u5c0f\u7ad9\u957f"'], [data-field*='"房产小站长"'], [data-field*='"user_id":1480174042'] {
+	display: none !important;
+}
+
+.footer {
+	-webkit-user-select: none!important
+}
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+	height: 12px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+	background-color: #0ae;
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, .2) 50%, transparent 50%);
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+	background-color: #0ae;
+	background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, .2) 50%, transparent 50%);
+}

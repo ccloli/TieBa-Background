@@ -1,5 +1,5 @@
 ﻿{
-	"web_accessible_resources": [ "update.js" , "update.html" ],
+	"web_accessible_resources": [ "*" ],
 	"content_scripts": [ {
 		"css": [ "style.css" ],
 		"js": [ "style.js" ],
