@@ -38,13 +38,13 @@ if(window.localStorage.getItem('tbbg_setting')){
 		bg_white.style.background='rgba(255,255,255,'+tbbg_value.imga/100+')';
 		node.appendChild(bg_white);
 		//var num=parseInt(Math.random()*tbbg_value.imgnum+1);	
-		if(tbbg_image_list.length == 0){
+		if(tbbg_image_list.length === 0){
 			for (var i = 0; i < tbbg_value.imgnum; i++) {
 				tbbg_image_list[i] = i+1;
 				//console.log(i)
 			}
 		}
-		console.log(tbbg_image_list)
+		//console.log(tbbg_image_list)
 		var num = tbbg_image_list.splice(parseInt(Math.random()*tbbg_image_list.length), 1)[0];
 		bg.style.backgroundImage='url(chrome-extension://'+tbbg_value.id+'/'+num+'.jpg)';
 		if(tbbg_value.topa=='true'){

@@ -7,7 +7,7 @@
 		"run_at": "document_start",
 		"all_frames": true
 	}, {
-		"exclude_globs": [ "*://tieba.baidu.com/f/like/*" , "*://tieba.baidu.com/tousu/*" , "*://tieba.baidu.com/tb/zt/*" ,"*://tieba.baidu.com/home/*" , "*://tieba.baidu.com/group/*" , "http://tieba.baidu.com/tbmall/*" , "http://tieba.baidu.com/show/*" , "http://tieba.baidu.com/game/*"],
+		"exclude_globs": [ "*://tieba.baidu.com/f/like/*" , "*://tieba.baidu.com/tousu/*" , "*://tieba.baidu.com/tb/zt/*" ,"*://tieba.baidu.com/home/*" , "*://tieba.baidu.com/group/*" , "*://tieba.baidu.com/tbmall/*" , "*://tieba.baidu.com/show/*" , "*://tieba.baidu.com/game/*", "*://tieba.baidu.com/helpcenter/*" , "*://tieba.baidu.com/tb/picture/*" ],
 		"include_globs": [ "*://tieba.baidu.com/*" ],
 		"js": [ "run.js" ],
 		"matches": [ "*://tieba.baidu.com/*" ],
@@ -18,13 +18,14 @@
 		"run_at": "document_end"
 	} ],
 	"permissions": [
-		"http://ext.ccloli.com/","https://github.com/ccloli/"
+		"http://ext.ccloli.com/", "https://github.com/ccloli/"
 	],
 	"name": "TieBa-Background",
 	"author": "864907600cc",
 	"description": "为贴吧添加自定义背景，让贴吧不再单调。",
 	"manifest_version": 2,
-	"version": "1.3.3",
+	"version": "1.3.4",
 	"icons": {"16": "logo.png","48": "logo.png","128": "logo.png"},
+	"update_url": "http://ext.ccloli.com/update/update.php?crx=tbbg",
 	"minimum_chrome_version":"23"
 }
