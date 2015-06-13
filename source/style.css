@@ -69,7 +69,7 @@ html[has_TBBG_extension] .wrap1, html[has_TBBG_extension] .wrap2, html[has_TBBG_
 	font-family: 宋体 !important;
 }
 
-.pager .cur, /*.core_title,*/.core_title_wrap, .thread_alt, #list_area .thread_list, .edit_title_field, .tb-editor-wrapper, .l_aside div[data-region], #zyq .j_editable, /*div[data-region], */.sign_rank_table, .sign_rank_table + .pager_container #bdshare, #sign_mod, .pager_theme_3 span.tP, #bakan_list > .left > .inner, #bakan_list > .right > .mod, #level_l_table, .album_ele_pic, #bakan_edit, #page_list_panel, #page_edit_panel, #container.clearfix > table + .tb + #view_content + .tb + #comment > .left, #container.clearfix > table + .tb + #view_content + .tb + #comment > .right > .mod, #container.clearfix > table + .tb + #view_content, .wrap2 .frs_content.clearfix .contet_wrap, .help_zone, #nav_forum_menu.nav_forum_menu .n_menu_wrap, /*#topic_thread_wrapper,*/ .content-sec #my_tieba_mod, .forum_content {
+.pager .cur, /*.core_title,*/.core_title_wrap, .thread_alt, #list_area .thread_list, .edit_title_field, .tb-editor-wrapper, .l_aside div[data-region], #zyq .j_editable, /*div[data-region], */.sign_rank_table, .sign_rank_table + .pager_container #bdshare, #sign_mod, .pager_theme_3 span.tP, #bakan_list > .left > .inner, #bakan_list > .right > .mod, #level_l_table, .album_ele_pic, #bakan_edit, #page_list_panel, #page_edit_panel, #container.clearfix > table + .tb + #view_content + .tb + #comment > .left, #container.clearfix > table + .tb + #view_content + .tb + #comment > .right > .mod, #container.clearfix > table + .tb + #view_content, .wrap2 .frs_content.clearfix .contet_wrap, .help_zone, #nav_forum_menu.nav_forum_menu .n_menu_wrap, /*#topic_thread_wrapper,*/ .content-sec #my_tieba_mod, .forum_content, .core_title_wrap_bright {
 	border-radius: 2px !important;
 	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5) !important;
 	background: rgba(255, 255, 255, 0.3) !important;
@@ -805,7 +805,7 @@ input[type="text"], textarea, #editor .pt_valid_code input, .i, .c_captcha_input
 	margin-top: 10px !important;
 }
 
-.core_title_wrap/*:not(.core_title_absolute) > .core_title*/ {
+.core_title_wrap/*:not(.core_title_absolute) > .core_title*/, .core_title_wrap_bright {
 	margin-bottom: 20px !important;
 }
 
@@ -1135,7 +1135,7 @@ input[type="text"], textarea, #editor .pt_valid_code input, .i, .c_captcha_input
 	display: block !important;
 }
 
-.core_title_wrap {
+.core_title_wrap, .core_title_wrap_bright {
 	width: 980px !important;
 }
 
@@ -1166,7 +1166,7 @@ input[type="text"], textarea, #editor .pt_valid_code input, .i, .c_captcha_input
 	display: none !important;
 }
 
-.thread_theme_4, .core_title_wrap {
+.thread_theme_4, .core_title_wrap, .core_title_wrap_bright {
 	border: none !important;
 }
 
@@ -1225,7 +1225,7 @@ input[type="text"], textarea, #editor .pt_valid_code input, .i, .c_captcha_input
 	width: auto !important;
 }
 
-.forum_content .threadlist_rep_num {
+.forum_content .threadlist_rep_num, .listReplyNum {
 	background-image: url(http://imgsrc.baidu.com/forum/pic/item/2cf5e0fe9925bc314d52bcd55fdf8db1cb13706b.jpg) !important;
 	background-repeat: no-repeat !important;
 }
@@ -1629,7 +1629,7 @@ input[type="text"], textarea, #editor .pt_valid_code input, .i, .c_captcha_input
 	display: none !important;
 }
 
-.j_thread_list {
+.j_thread_list, #threadListGroupCnt, .listItemCnt {
 	background-color: transparent !important;
 }
 
@@ -1679,10 +1679,7 @@ div.card_top, div.card_top:not([style]), .edui-btn-scrawl, #pop_video {
 	margin-bottom: 10px !important;
 }
 
-.per_list_frs, #pop_frame,
-/*.thread_1st,*/
-
-.dasense, [class*="dasense"], [data-daname], [id*="dasense"], #threadListGroupCnt, .content_top, .u_baiduPrivilege, .u_baiduPrivilege + .split, .u_joinvip, .tbui_fbar_props, .add_guessing_btn, .add_guessing_btn + .split_text, .spage_liveshow_slide, #spage_liveshow_slide, .member_rank, #__bdyx_tips_icon, .bdyx_tips_icon_, #__bdyx_tips, .bdyx_tips_, .encourage_entry, .baidu-tuisong-wrap, .baidu-tuisong, .tbui_fbar_home, .j_aside_float_bar_go_home, #global_notice_wrap, .global_notice_wrap, .firework_sender_wrap, .spage_liveshow_slide, #spage_liveshow_slide, .item.jingxuan, .member_rank, .item.jingxuan + div, .reward_btn, .icon_tbworld.tbworld_lv2_gray, .baidutuisong-xiaoxiong, .j_couplet, .couplet_left, .couplet_right, .j353fc229f, .save_face_bg, .u_appcenterEntrance, .nav_list a.icon_wanle, .profile_bottom, .threadlist_bright > li.clearfix:not(.j_thread_list), .BAIDU_CLB_AD, .BAIDU_CLB_AD_frs, .l_post_bright.clearfix:not(.l_post), #spage_game_tab_wrapper, .advertise_right_index, /*.supervip_dialog, */.tshow_out_date_warn, #tshow_out_date_warn {
+.per_list_frs, #pop_frame,/*.thread_1st,*/.dasense, [class*="dasense"], [data-daname], [id*="dasense"], .content_top, .u_baiduPrivilege, .u_baiduPrivilege + .split, .u_joinvip, .tbui_fbar_props, .add_guessing_btn, .add_guessing_btn + .split_text, .spage_liveshow_slide, #spage_liveshow_slide, .member_rank, #__bdyx_tips_icon, .bdyx_tips_icon_, #__bdyx_tips, .bdyx_tips_, .encourage_entry, .baidu-tuisong-wrap, .baidu-tuisong, .tbui_fbar_home, .j_aside_float_bar_go_home, #global_notice_wrap, .global_notice_wrap, .firework_sender_wrap, .spage_liveshow_slide, #spage_liveshow_slide, .item.jingxuan, .member_rank, .item.jingxuan + div, .reward_btn, .icon_tbworld.tbworld_lv2_gray, .baidutuisong-xiaoxiong, .j_couplet, .couplet_left, .couplet_right, .j353fc229f, .save_face_bg, .u_appcenterEntrance, .nav_list a.icon_wanle, .profile_bottom, .threadlist_bright > li:not(.j_thread_list), .BAIDU_CLB_AD, .BAIDU_CLB_AD_frs, .l_post_bright.clearfix:not(.l_post), #spage_game_tab_wrapper, .advertise_right_index, /*.supervip_dialog, */.tshow_out_date_warn, #tshow_out_date_warn {
 	display: none !important;
 }
 
@@ -1737,7 +1734,7 @@ a.ps_cb {
 	right: -20px !important;
 }
 
-.recom_scroll, .new_list .media_box, .profile_bottom, #agreementForm, .apply_agreement, .top_content {
+.recom_scroll, .new_list .media_box, .profile_bottom, #agreementForm, .apply_agreement, .top_content, #threadListGroupCnt:hover, .threadListGroupCnt_Zero .mini, #listPostCnt, #j_ed_container {
 	background-color: rgba(255, 255, 255, 0.5) !important;
 }
 
@@ -1802,7 +1799,7 @@ a.complaint {
 	border-radius: 50% !important;
 }
 
-.thread_recommend, .com_u9_head, [data-field*='"\u623f\u4ea7'], [data-field*='"房产'], div[data-daid], .platform_aside_tieba_partner, .btn_batch_zhidu, .btn_badge_top, #j_tcharge_dialog, .j_tbnav_tab_a[stats-data$="tabgroup"], #j_navtab_wanle, .fav-toolbar .download, .manager_btn[title="会员专属置顶"], .manager_btn[title="吧主制度"], #tbManagerApply:empty + ins, .star_nav_tab[data-field^="{\"tab\":\"group\""], [data-field*='"58\u540c\u57ce\u5b98\u65b9"'], #j_dimension, .r-right-sec{
+.thread_recommend, .com_u9_head, #com_u9_head, .u9_head, [data-field*='"\u623f\u4ea7'], [data-field*='"房产'], [data-field*="58\u540c\u57ce\u5b98\u65b9"], [data-daid], .platform_aside_tieba_partner, .btn_batch_zhidu, .btn_badge_top, #j_tcharge_dialog, .j_tbnav_tab_a[stats-data$="tabgroup"], #j_navtab_wanle, .fav-toolbar .download, .manager_btn[title="会员专属置顶"], .manager_btn[title="吧主制度"], #tbManagerApply:empty + ins, .star_nav_tab[data-field^="{\"tab\":\"group\""], [data-field*='"58\u540c\u57ce\u5b98\u65b9"'], #j_dimension, .r-right-sec, .right_wangmeng, #celebrity, .wrap1 ~ .clearfix, .switch_radios + div.clearfix, #encourage_entry, .zyq_bright + .clearfix, .l_post_bright + div:not(.l_post_bright), #platform_left_float, .achievement_medal_wrapper, #game_live_list {
 	display: none !important;
 }
 /*
@@ -1856,4 +1853,21 @@ a.complaint {
 
 .left-cont-wraper {
 	padding-top: 10px;
+}
+
+.faceIcon {
+	border-radius: 50%;
+}
+
+.interviewZero .threadListGroupCnt_Zero .listItemCnt {
+  border-top: 1px dashed #999999 !important;
+  background: none !important;
+}
+
+.l_post_bright .core_reply_wrapper {
+	border: none;
+}
+
+.lzl_time {
+	color: #999;
 }

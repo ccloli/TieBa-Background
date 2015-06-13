@@ -24,7 +24,7 @@
 	"author": "864907600cc",
 	"description": "为贴吧添加自定义背景，让贴吧不再单调。",
 	"manifest_version": 2,
-	"version": "1.3.4",
+	"version": "1.3.5",
 	"icons": {"16": "logo.png","48": "logo.png","128": "logo.png"},
 	"update_url": "http://ext.ccloli.com/update/update.php?crx=tbbg",
 	"minimum_chrome_version":"23"
